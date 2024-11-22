@@ -80,7 +80,7 @@ You can adjust these values for different matrix sizes.
 - [Fiordi Toska](#)
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.txt).
 
 ---
 Feel free to contribute or report issues. Happy coding!
