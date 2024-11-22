@@ -7,7 +7,7 @@
 #include <omp.h>
 #include "matrix_operations.h"
 
-int main() {
+int main(int argc, char** argv) {
     srand(time(NULL)); // Seed for random number generation
 
     // Matrix dimensions for the problem
