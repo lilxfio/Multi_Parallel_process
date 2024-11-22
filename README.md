@@ -77,7 +77,7 @@ You can adjust these values for different matrix sizes.
   - Standard C libraries: `stdio.h`, `stdlib.h`, `time.h`.
 
 ## Contributors
-- [Fiordi Toska](#)
+- **Fiordi Toska** - Project Developer
 
 ## License
 This project is licensed under the [MIT License](LICENSE.txt).
