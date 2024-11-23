@@ -27,7 +27,7 @@ int main(int argc, char** argv) {
     double serial_time = matrix_multiply(M, N, W, A, B, C, 1); // Single-threaded execution
     double parallel_time_2 = matrix_multiply(M, N, W, A, B, C, 2); // 2 threads
     double parallel_time_4 = matrix_multiply(M, N, W, A, B, C, 4); // 4 threads
-    int max_threads = omp_get_max_threads();
+    int max_threads = omp_get_num_procs();
     double parallel_time_max = matrix_multiply(M, N, W, A, B, C, max_threads); // Maximum threads
 
     // Calculate speedups and performance improvement percentages
